@@ -1,3 +1,5 @@
+#programa feito para realizar o donwload do banco de dados
+
 import os
 import tarfile
 import urllib.request
