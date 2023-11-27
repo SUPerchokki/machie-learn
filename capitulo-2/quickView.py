@@ -15,12 +15,12 @@ def load_housing_data(housing_path =HOUSING_PATH):
     return pd.read_csv(csv_path)
 
 housing = load_housing_data()
-print(housing.head()) # 5 primeiras linhas
-print(housing.info()) #informações sobre cada coluna
-print(housing["ocean_proximity"].value_counts()) # Vezes que um atributo da coluna se repete
-print(housing.describe()) # exibe informações uteis da tabela
+#print(housing.head())  5 primeiras linhas
+#print(housing.info()) informações sobre cada coluna
+#print(housing["ocean_proximity"].value_counts()) Vezes que um atributo da coluna se repete
+#print(housing.describe()) exibe informações uteis da tabela
 
 housing.hist(bins=50)
-plt.show()
+
 
 
